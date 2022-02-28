@@ -1,0 +1,10 @@
+O relatorio escrito:
+* apresentacao do problema e sua solucao.
+* descricao dos modulos e componentes usados (cite referencias/datasheets/URLs).
+* descricao das bibliotecas utilizadas e dos SFRs do conversor A/D.
+* experimentos e calibracoes (calculo do Beta, resistencias em 0 C, 100 C e ambiente) Inclua fotos.
+* ajustes e acertos da medicao (linearizacao, ajuste, etc.).
+* listagem do codigo usado.
+
+O video:
+* filmagens das medicoes de 3 temperaturas diferentes.
