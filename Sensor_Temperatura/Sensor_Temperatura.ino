@@ -1,4 +1,3 @@
-
 #include <LiquidCrystal_I2C.h>      // usando a biblioteca LiquidCrystal
 
 #define BIT0 0x01
@@ -9,7 +8,6 @@
 #define BIT5 0x20
 #define BIT6 0x40
 #define BIT7 0x80
-
 
 //Constantes do NTC
 #define T0 298.15 // define constante igual a 298.15 Kelvin
@@ -49,10 +47,9 @@ float leituraAnalogica(){
       asm("");
     }
     x = ADC;
-    media += (float)x; //talvez seja ruim somar dps dividir, mas tenho medo de dividir um 10bit
+    media += (float)x;
   }
   media /= 10.0;
-  
   ADCSRA &= ~(BIT7); // desliga adc
   return media;
 }
